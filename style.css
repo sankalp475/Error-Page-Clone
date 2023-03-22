@@ -1,0 +1,95 @@
+/* Imports fonts for the webpage */
+@font-face {
+  font-family: 'Pragmatica-Extended-Bold';
+  src: url(Fonts/PragmaticaExtendedBold.otf);
+}
+@font-face {
+  font-family: 'Telegraph-Regular';
+  src: url(Fonts/PPTelegraf-Regular.otf);
+}
+@font-face {
+  font-family: 'Telegraph-UltraLight';
+  src: url(Fonts/PPTelegraf-UltraLight.otf);
+}
+@font-face {
+  font-family: 'Telegraf-UltraBold';
+  src: url(Fonts/PPTelegraf-UltraBold.otf);
+}
+/* Fonts import ends */
+
+html {
+  background-image: url(img/error-page-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100%;
+}
+/* margin-left and margin-right */
+.logo-txt, .main-txt, .error-msg {
+  margin-left: 80px;
+}
+
+/* Logo text on the top left corner */
+.logo-txt {
+  margin-top: 60px;
+  font-family: 'Pragmatica-Extended-Bold';
+  width: 100px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+/* Main text on the center of the page */
+.main-txt {
+  margin: 60px 0 60px 80px;
+  font-family: 'Telegraph-UltraLight';
+  font-size: 160px;
+  width: 900px;
+}
+/* Divider */
+hr {
+  color: white;
+  margin: 0 80px 0 80px;
+  border: 2px solid white;
+}
+/* Footer Properties */
+footer {
+  display: flex;
+  /* margin-top: 25px; */
+}
+/* Error message Para 1 */
+.error-msg {
+  font-weight: 600;
+  font-family: 'Telegraph-Regular';
+  font-size: 30px;
+  letter-spacing: 1.6px;
+  width: 900px;
+}
+#error-msg1 {
+  margin-bottom: 45px;
+}
+/* Bolder span text */
+span {
+  font-family: 'Telegraf-UltraBold';
+  letter-spacing: 2px;
+}
+/* Social div block */
+.socials {
+  margin: 20px 118px;
+  font-family: 'Pragmatica-Extended-Bold';
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 45px;
+}
+/* Links */
+a {
+  color: white;  
+  transition: color 0.25s;
+}
+a:hover {
+  color: #0158a5;
+}
+
+.ig-link {
+  display: block;
+}
