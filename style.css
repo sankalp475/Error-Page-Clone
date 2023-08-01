@@ -1,3 +1,32 @@
+/* Sticky Header */
+.sticky-header {
+
+ 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  color:black;
+  background-color:orange;
+height: 80px;
+  
+}
+
+.sticky-header .logo-txt {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+/* Adjust the margin of the main content to create space for the sticky header */
+.main-content {
+  margin-top: 60px;
+}
+
+
+
 /* Imports fonts for the webpage */
 @font-face {
   font-family: 'Pragmatica-Extended-Bold';
@@ -93,3 +122,38 @@ a:hover {
 .ig-link {
   display: block;
 }
+
+/* .sticky-header .logo-txt:hover {
+  transform: translateX(100px);
+  color: #ff0000;
+} */
+
+
+/* style.css */
+
+/* Keyframes for moving text to the left */
+@keyframes moveLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(400px); }
+}
+
+.sticky-header .logo-txt {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  animation: moveLeft 2s infinite;
+}
+
+
+
+ul li a {
+  font-size: 20px;
+  transition: font-size 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  font-size: 24px;
+  background-color: #ff0000;
+}
+
+
