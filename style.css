@@ -134,7 +134,7 @@ a:hover {
 /* Keyframes for moving text to the left */
 @keyframes moveLeft {
   0% { transform: translateX(0); }
-  100% { transform: translateX(400px); }
+  50% { transform: translateX(1200px); }
 }
 
 .sticky-header .logo-txt {
